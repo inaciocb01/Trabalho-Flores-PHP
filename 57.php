@@ -22,41 +22,33 @@ $ano = (int) readline("Digite o ano: ");
 $dataValida = true;
 
 
-if ($mes < 1 || $mes > 12) {
+if ($ano <= 0) {
     $dataValida = false;
-} else {
-    
-    switch ($mes) {
-        case 2:
-            
-            if (($ano % 400 == 0) || ($ano % 4 == 0 && $ano % 100 != 0)) {
-                $diasNoMes = 29;
-            } else {
-                $diasNoMes = 28;
-            }
-            break;
+}
+elseif ($mes < 1 || $mes > 12) {
+    $dataValida = false;
+}
+else{ $bissexto = ($ano % 400 == 0) || ($ano % 4 == 0 && $ano % 100 != 0);}
 
-        case 4:
-        case 6:
-        case 9:
-        case 11:
-            $diasNoMes = 30;
-            break;
 
-        default:
-            $diasNoMes = 31;
+ if ($mes == 2) {
+        $diasNoMes = $bissexto ? 29 : 28;
+    } 
+    elseif ($mes == 4 || $mes == 6 || $mes == 9 || $mes == 11) {
+        $diasNoMes = 30;
+    } 
+    else {
+        $diasNoMes = 31;
     }
-
-    
-    if ($dia < 1 || $dia > $diasNoMes) {
+if ($dia < 1 || $dia > $diasNoMes) {
         $dataValida = false;
     }
-}
-
-if ($dataValida) {
-    echo "Data válida!";
+    if ($dataValida) {
+    echo "A data é válida.\n";
 } else {
-    echo "Data inválida!";
+    echo "A data não é válida.\n";
 }
-
 ?>
+
+    
+
