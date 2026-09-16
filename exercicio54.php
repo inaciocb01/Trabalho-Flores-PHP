@@ -44,3 +44,4 @@ Descritivo: Programa que le um número do 1 até o 7 e fala o dia da semana que 
         echo "Número inválido!";
 }
 
+?>
