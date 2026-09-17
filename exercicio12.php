@@ -26,6 +26,6 @@ $tercaParte = $numero / 3;
 echo "Terça parte: $tercaParte" . PHP_EOL;
 
 /*
- * Resumo para o chefe: script PHP puro (CLI) que recebe um número real
+ * recebe um número real
  * do usuário e devolve o valor dividido por 3 (a terça parte).
  */
