@@ -49,7 +49,5 @@ if ($dia < 1 || $dia > $diasNoMes) {
 } else {
     echo "A data não é válida.\n";
 }
+/* Descritivo: O programa pede ao usuário o dia, o mês e o ano. Depois, verifica se o ano e o mês são válidos e calcula quantos dias o mês possui, considerando também os anos bissextos. Por fim, verifica se o dia está dentro do limite do mês e informa se a data é válida ou não.*/
 ?>
-
-    
-

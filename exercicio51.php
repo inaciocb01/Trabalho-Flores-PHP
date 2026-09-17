@@ -1,3 +1,5 @@
+
+
 <?php
 /**************************
 Curso: Engenharia de Software
@@ -33,7 +35,6 @@ $media = ($maior1 + $maior2) / 2;
 
 
 echo "A média aritmética das duas maiores notas é: " . number_format($media, 2, ',', '.') . "\n";
+
+/*Descritivo : O programa solicita três notas ao usuário, armazena os valores em um vetor e os organiza em ordem crescente. Em seguida, seleciona as duas maiores notas, calcula a média aritmética entre elas e exibe o resultado com duas casas decimais.*/
 ?>
-
-    
-

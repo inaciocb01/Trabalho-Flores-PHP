@@ -43,5 +43,5 @@ Descritivo: Programa que le um número do 1 até o 7 e fala o dia da semana que 
     default:
         echo "Número inválido!";
 }
-
+/* Descritivo:O programa solicita ao usuário um número de 1 a 7 e utiliza o comando switch para identificar o dia da semana correspondente. Caso o número informado não esteja entre 1 e 7, o programa exibe uma mensagem informando que o número é inválido. */
 ?>

@@ -35,5 +35,5 @@ if (isset($consumo[$tipo])) {
 } else {
     echo "Tipo de veículo inválido.";
 }
-
+/* Descritivo: O programa solicita o tipo do veículo e a distância percorrida em quilômetros. Utilizando um array, identifica o consumo médio correspondente ao veículo e calcula a quantidade estimada de combustível necessária para percorrer a distância. Caso o tipo informado seja inválido, exibe uma mensagem de erro.*/
 ?>
