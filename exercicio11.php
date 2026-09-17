@@ -29,7 +29,7 @@ $produto = $num1 * $num2;
 echo "Produto: $produto" . PHP_EOL;
 
 /*
- * Resumo para o chefe: script simples em PHP puro (CLI) que pede dois
+ * pede dois
  * números inteiros ao usuário e exibe o resultado da multiplicação
  * entre eles. Sem dependências externas.
  */
