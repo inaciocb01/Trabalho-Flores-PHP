@@ -13,8 +13,7 @@ RA 26003569-2 - Lucas Eduardo Ferreira Branco
 RA 26014449-2 - Vitor Hugo Carvalho Stenger
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia quatro números inteiros e calcule a média ponderada
-deles, considerando que os pesos associados a cada número são, respectivamente, 1, 2, 3 e
-4.
+deles, considerando que os pesos associados a cada número são, respectivamente, 1, 2, 3 e 4.
 
 ***************************/
 
